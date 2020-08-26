@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinhSyIntro", "VinhSyIntro.csproj", "{91EB06C5-F679-4F28-AB9F-78460DB5CD97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91EB06C5-F679-4F28-AB9F-78460DB5CD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EB06C5-F679-4F28-AB9F-78460DB5CD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EB06C5-F679-4F28-AB9F-78460DB5CD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EB06C5-F679-4F28-AB9F-78460DB5CD97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

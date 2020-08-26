@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Journey";
+}
+
+@{
+    Layout = "_Layout";
+}
+
+@model VinhSyIntro.Models.Course_PLanguage
+<!--
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+-->
+
+
+<div class="text-center">
+    <h1 class="display-4">My Journey</h1>
+</div>
+
+
+<h2>Completed Courses</h2>
+@foreach (var i in Model.CourseDisplay)
+{
+    <ul>
+        <li>
+            <strong>Course Name: @i.Course_Name</strong>
+        </li>
+        <li>Course Code: @i.Course_Code</li>
+        <li>Grade: @i.Grade</li>
+        <li>Method of Study: @i.Method</li>
+        @foreach (var pl in Model.PLDisplay.Where(p => p.Id == i.Id))
+        {
+            <li>Language Studied In: @pl.PLanguage_Name</li>
+        }
+    </ul>
+
+
+}
+
