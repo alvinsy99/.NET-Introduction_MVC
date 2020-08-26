@@ -36,6 +36,8 @@ namespace VinhSyIntro
             services.AddControllersWithViews();
             services.AddRazorPages();
 
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
             //services.AddScoped<JourneyController, ApplicationDbContext>();
 
 

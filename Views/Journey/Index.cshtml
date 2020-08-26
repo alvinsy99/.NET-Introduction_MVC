@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Journey";
+    ViewData["Title"] = "My Journey";
 }
 
 @{
@@ -19,6 +19,7 @@
     <h1 class="display-4">My Journey</h1>
 </div>
 
+<p>Click this <a href="@Url.Action("Create", "Journey")" title="j_create" ">link</a> to create new entry</p>
 
 <h2>Completed Courses</h2>
 @foreach (var i in Model.CourseDisplay)

@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{91EB06C5-F679-4F28-AB9F-78460DB5CD97}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Journey/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Journey/Create.cshtml">
     <Files>
-      <File FileName="Views/Journey/Index.cshtml" Line="28" Column="47" />
-      <File FileName="Controllers/JourneyController.cs" Line="61" Column="35" />
-      <File FileName="Models/Course.cs" Line="19" Column="9" />
-      <File FileName="Models/Programming_Language.cs" Line="15" Column="55" />
-      <File FileName="Data/ApplicationDbContext.cs" Line="1" Column="1" />
-      <File FileName="Models/Usage.cs" Line="1" Column="1" />
-      <File FileName="Models/Course_PLanguage.cs" Line="11" Column="9" />
+      <File FileName="Controllers/JourneyController.cs" Line="54" Column="39" />
+      <File FileName="Models/Programming_Language.cs" />
+      <File FileName="Views/Journey/Create.cshtml" Line="10" Column="13" />
+      <File FileName="Views/Home/Index.cshtml" Line="20" Column="9" />
+      <File FileName="Views/Journey/Index.cshtml" Line="23" Column="1" />
+      <File FileName="Models/Course.cs" Line="19" Column="9" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VinhSyIntro" expanded="True">
             <Node name="VinhSyIntro" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
@@ -22,9 +23,8 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Journey" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Create.cshtml" selected="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>

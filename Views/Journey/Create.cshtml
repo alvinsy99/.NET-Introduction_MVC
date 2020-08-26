@@ -5,11 +5,37 @@
 }
 
 <h1>Create new Entry</h1>
-<!--
+
+
+<form asp-controller="Journey" asp-action="Create">
+
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <p>
+        <label asp-for="Course_Name">Course Name</label> <br />
+        <input type="text" asp-for="Course_Name" size="30" placeholder="Enter the Course Name"/>
+    </p>
+
+    <p>
+        <label asp-for="Course_Code">Course Code</label> <br />
+        <input type="text" asp-for="Course_Code" size="30" placeholder="Enter the Course Code" />
+    </p>
+
+    <p>
+        <label asp-for="Grade">Grade (0 - 7):</label> <br />
+        <input type="range" asp-for="Grade" name="Grade" min="0" max="7"/> 
+    </p>
+
+    <p>
+        <label asp-for="Method">Method of Study:</label>
+        <select asp-for="Method">
+            <option value="Self Study">Self Study</option>
+            <option value="University Courses" selected="selected">University Course</option>
+        </select>
+    </p>
+
     
-<form asp-action="Create" asp-controller="Journey">
-    <label asp-for="Name">Enter the course name:</label>
-    
+    <p>
+        <input type="submit" />
+    </p>
 </form>
-    
--->
